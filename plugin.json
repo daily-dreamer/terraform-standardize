@@ -1,0 +1,21 @@
+{
+  "name": "terraform-standardize",
+  "displayName": "Terraform Standardize",
+  "description": "Refactor raw, brownfield, and Terraformer-imported HCL configurations across AWS, GCP, and Azure into modular, zero-drift HashiCorp standards.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Mathews Saiji",
+    "url": "https://github.com/daily-dreamer"
+  },
+  "homepage": "https://github.com/daily-dreamer/terraform-standardize",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daily-dreamer/terraform-standardize.git"
+  },
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Standardize this Terraformer-imported directory with zero drift",
+    "Split this monolithic main.tf into standard Terraform files and variables",
+    "Audit this brownfield Terraform config for hardcoded IDs and ForceNew risks"
+  ]
+}
